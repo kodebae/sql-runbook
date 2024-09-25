@@ -9,7 +9,9 @@ SELECT DISTINCT (rental_rate) FROM film;
 -- Query distinct rental rates for movies.
 -- 'DISTINCT' returns non-duplicate values
 
-
 -- 'COUNT' function, used to get summary statistics about your data, 
 -- determine the size of a table, or count occurrences of values.
-SELECT COUNT (DISTINCT (amount)) FROM payment;                   
+SELECT COUNT (DISTINCT (amount)) FROM payment;      
+
+-- 'WHERE' add conditional statements for query results.
+-- filtering queries so only met conditions will be returned.
